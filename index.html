@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Noto+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS\styles.css">
+  <meta charset="utf-8">
+  <title> Survey </title>
+</head>
+
+<header>
+
+  <h1 div id="title"> How often do you exercise? </h1>
+
+</header>
+
+<body>
+  <p id="description"> The puropse of this survey is to gain an understanding of how often people exercise in a week. Please complete the details below.</p>
+
+  <form id="survey-form">
+    <div class="headings">
+
+      <label for="name" id="name-label"> Name </label>
+      <input id="name" type="text" name="name" placeholder="Matt" class="inputs" required>
+      <br>
+      <label for="email" id="email-label">Email</label>
+      <input id="email" type="email" name="email" placeholder="e.g @gmail.com" class="inputs" required>
+      </input>
+      <br>
+      <label for="number" id="number-label">Age</label>
+      <input id="number" type="number" name="number" placeholder="16" min="16" max="100" class="inputs" required>
+      <br>
+      <label for="dropdown" id="frequency"> How often do you exercise in a week? </label>
+      <select id="dropdown" class="inputs">
+        <option value="Once-a-week"> Once a week </option>
+        <option value="Twice-a-week"> Twice a week </option>
+        <option value="Three-times-a-week "> Three times a week </option>
+        <option value="Four-times-a-week "> Four times a week </option>
+        <option value="Five-times-a-week"> Five times a week </option>
+        <option value="Six-times-a-week"> Six times a week </option>
+        <option value="Seven-times-a-week"> Seven times a week </option>
+      </select>
+      <br>
+      <br>
+
+      <label for="type-of-exercise" id="type-of-exercise"> What type of exercise do you do? </label>
+      <br>
+      <br>
+
+      <input id="type-of-exercise" type="radio" id="walking" name="type-of-exercise" value="walking">
+
+      <label for="type-of-exercise"> Walking </label>
+      <br>
+
+      <input id="type-of-exercise" type="radio" id="Jogging" name="type-of-exercise" value="Jogging">
+      <label for="type-of-exercise"> Jogging </label>
+      <br>
+
+      <input id="type-of-exercise" type="radio" id="Swimming" name="type-of-exercise" value="Swimming">
+      <label for="type-of-exercise"> Swimming </label>
+      <br>
+
+      <input id="type-of-exercise" type="radio" id="Gym" name="type-of-exercise" value="Gym">
+      <label for="type-of-exercise"> Gym </label>
+      <br>
+
+      <input id="type-of-exercise" type="radio" id="Sports" name="type-of-exercise" value="Sports">
+      <label for="type-of-exercise"> Sports </label>
+      <br>
+      <br>
+
+      <label for="type-of-exercise"> Other </label>
+      <input id="type of exercise" type="radio id=" other" name="type of exerise" value="e.g cycling">
+      <br>
+      <br>
+      <label for="longevity"> <b> How long do you exercise for per day? </b> </label>
+      <br>
+      <br>
+      <input id="checkbox" type="checkbox" name="longevity" value="30-minutes>
+                                                                                                             <label for=" checkbox"> 30-minutes </label>
+      <br>
+      <input id="checkbox" type="checkbox" name="longevity" value="60-     minutes" <label for="checkbox"> 60-minutes </label>
+      <br>
+
+      <input id="checkbox" type="checkbox" name="longevity" value="90-minutes" <label for="checkbox"> 90-minutes </label>
+      <br>
+
+      <input id="checkbox" type="checkbox" name="longevity" value="120-minutes" <label for="checkbox"> 120-minutes </label>
+      <br>
+
+      <input id="checkbox" type="checkbox" name="longevity" value="longer than options listed above" <label for="checkbox"> longer than the options listed above. </label>
+      <br>
+      <br>
+
+      <label id="textarea">Additional comments </label>
+      <br>
+
+      <textarea id="textarea" name="instructions" rows="5" cols="50">
+
+</textarea>
+      <br>
+
+      <input id="submit" type="submit" class="submit">
+
+    </div>
+  </form>
+
+</body>
+
+</html>
